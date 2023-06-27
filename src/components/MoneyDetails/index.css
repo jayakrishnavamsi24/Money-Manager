@@ -1,0 +1,58 @@
+img {
+  width: 50px;
+  margin-right: 18px;
+}
+
+.summary-section {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.summary-card {
+  display: flex;
+  align-items: center;
+  background-color: #e3f7c5;
+  min-width: 200px;
+  padding: 17px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #84cc16;
+  border-radius: 10px;
+  flex-grow: 1;
+  margin-bottom: 35px;
+}
+
+.second-sum-card {
+  border-color: #06b6d4;
+  background-color: #cffafe;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.third-sum-card {
+  border-color: #7c3aed;
+  background-color: #ede9fe;
+}
+
+.your-bal {
+  font-size: 13px;
+  margin-bottom: 0px;
+}
+
+.amount {
+  font-size: 18px;
+  margin-top: 8px;
+}
+
+@media screen and (max-width: 576px) {
+  .summary-card {
+    margin-bottom: 18px;
+  }
+  .second-sum-card {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
